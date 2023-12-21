@@ -118,7 +118,7 @@ def sha3_256(data):
     hasher.update(data)
     return hasher.hexdigest()
 
-data = "s"
+data = "test"
 hash_value = sha3_256(data.encode())
 print(hash_value)
 hash_sha3_256 = hashlib.sha3_256(data.encode()).hexdigest()
